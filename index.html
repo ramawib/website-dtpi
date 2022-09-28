@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+<body class="box-border flex flex-col justify-center items-center h-screen font-Manrope bg-[#1f2632]">
+
+
+  <div class="relative p-6 my-16 max-w-sm bg-[#323a49] text-center border rounded-lg border-transparent shadow-md">
+
+  
+    <!-- Advice ID -->
+    <h1 id="adviceID" class="text-xs text-[#52ffa8] font-bold uppercase tracking-widest"></h1>
+    <!-- Advice Message/Text -->
+    <h5 id="adviceText" class="my-6 text-2xl font-bold tracking-tight text-[#cee3e9]"></h5>
+    <!-- Ornament -->
+    <div class="flex items-center justify-center gap-2 mb-6">
+      <hr class="w-1/2 border border-[#4e5d73]">
+      <div class="w-1.5 h-4 bg-white"></div>
+      <div class="w-1.5 h-4 bg-white"></div>
+      <hr class="w-1/2 border border-[#4e5d73]">
+    </div>
+    <button class="flex justify-center items-center absolute w-14 h-14 bg-[#52ffa8] rounded-full left-1/2 -translate-x-1/2 cursor-pointer hover:shadow-[0_0_30px_-5px_#24fd91]" onClick=window.location.reload()>
+      <img src="./images/icon-dice.svg" alt="Shuffle Dice">
+    </button>
+  </div>
+
+  <footer class="text-white text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ramawib">Dimas Rama</a>.
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
